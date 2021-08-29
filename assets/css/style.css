@@ -1,0 +1,65 @@
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* logo */
+header{
+    max-width: 1200px;
+    background-image: url(../images/bg-header-desktop.png);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin: auto;
+}
+.logo{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+/* Description of logo */
+.logo-desc{
+    display: flex;
+    margin: 50px 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo-desc--text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.logo-desc--text h1{
+    font-weight: 600;
+    font-size: 30px;
+    color: hsl(210, 10%, 33%);
+}
+.logo-desc--text h4{
+    font-weight: 400;
+    margin-top: 0;
+    color: hsl(201, 11%, 66%);
+}
+
+/* buttons */
+.logo-desc--buttons{
+    margin: 20px 8px;
+}
+
+.logo-desc--buttons a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid ;
+    border-radius: 30px;
+    color: #FFF;
+    font-size: 14px;
+}
+.green {
+    background-color: hsl(171, 66%, 44%);
+}
+.purple{
+    background-color: hsl(233, 100%, 69%);
+}
