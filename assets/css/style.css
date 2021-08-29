@@ -31,7 +31,7 @@ header{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
 }
 .logo-desc--text h1{
     font-weight: 600;
@@ -62,4 +62,54 @@ header{
 }
 .purple{
     background-color: hsl(233, 100%, 69%);
+}
+
+.desc-before--mac{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.desc-before--mac h1{
+    font-weight: 600;
+    font-size: 30px;
+    color: hsl(210, 10%, 33%);
+}
+.desc-before--mac h4{
+    font-weight: 400;
+    margin-top: 0;
+    color: hsl(201, 11%, 66%);
+}
+/* Mac img and description */
+
+.mac--desc{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    margin: 60px auto;
+    justify-content: center;
+}
+
+.mac-img{
+    margin-left: -100px;
+}
+
+.mac-text{
+    margin: 0 100px;
+}
+
+.mac-text--1 h1,
+.mac-text--2 h1,
+.mac-text--3 h1{
+    font-weight: 600;
+    font-size: 30px;
+    color: hsl(210, 10%, 33%);
+}
+.mac-text--1 h4,
+.mac-text--2 h4,
+.mac-text--3 h4{
+    font-weight: 400;
+    margin-top: 0;
+    color: hsl(201, 11%, 66%);
 }
