@@ -113,3 +113,35 @@ header{
     margin-top: 0;
     color: hsl(201, 11%, 66%);
 }
+
+/* section mobile*/
+
+.mobile-mac{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mobile-before,
+.mobile-after{
+    margin: 30px auto;
+    align-items: center;
+    text-align: center;
+}
+
+.mobile-before h1,
+.mobile-after h1{
+    font-weight: 600;
+    font-size: 30px;
+    color: hsl(210, 10%, 33%);
+}
+
+.mobile-before h4,
+.mobile-after h4{
+    font-weight: 400;
+    margin-top: 0;
+    color: hsl(201, 11%, 66%);
+}
+
+/* companys */
