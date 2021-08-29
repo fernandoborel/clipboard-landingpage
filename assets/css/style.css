@@ -144,4 +144,50 @@ header{
     color: hsl(201, 11%, 66%);
 }
 
+/* before companys */
+
+.before-companys--desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.blacklist,
+.text-snippets,
+.sneak-preview{
+    text-align: center;
+    margin: 0 20px;
+}
+
+.blacklist h1,
+.text-snippets h1,
+.sneak-preview h1{
+    font-weight: 600;
+    font-size: 20px;
+    color: hsl(210, 10%, 33%);
+}
+
+.blacklist h4,
+.text-snippets h4,
+.sneak-preview h4{
+    font-weight: 400;
+    margin-top: 0;
+    color: hsl(201, 11%, 66%);
+    font-size: 15px;
+}
+
 /* companys */
+
+.companys--img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.google,
+.ibm,
+.microsoft,
+.hewlett,
+.vector{
+    margin: 20px 50px;
+}
