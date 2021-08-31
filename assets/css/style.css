@@ -242,3 +242,62 @@ footer{
     width: 50px;
     height: 50px;
 }
+
+/* responsividade */
+
+@media (max-width: 600px){
+    
+    .logo-desc--text{
+        max-width: 500px;
+    }
+    .logo-desc--text h1{
+        font-size: 18px;
+    }
+    .logo-desc--text h4{
+        font-size: 12px;
+    }
+    .logo-desc--buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-desc--buttons a{
+        margin: 20px 0;
+        padding: 20px 80px;
+    }
+    
+    .desc-before--mac{
+        max-width: 500px;
+    }
+    .desc-before--mac h1{
+        font-size: 18px;
+    }
+    .desc-before--mac h4{
+        font-size: 12px;
+    }
+
+    .mac--desc{
+        flex-direction: column;
+    }
+    .mac-img img{
+        width: 400px;
+        height: 400px;
+    }
+    .mac-img{
+        margin-left: 0;
+    }
+    
+    .mac-text{
+        margin: 0;
+    }
+    
+    .mac-text--1 h1,
+    .mac-text--2 h1,
+    .mac-text--3 h1{
+        font-size: 18px;
+    }
+    .mac-text--1 h4,
+    .mac-text--2 h4,
+    .mac-text--3 h4{
+        font-size: 12px;
+    }
+}
