@@ -191,3 +191,54 @@ header{
 .vector{
     margin: 20px 50px;
 }
+
+/* footer */
+
+footer{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px auto;
+}
+
+.footer-desc{
+    display: flex;
+}
+.footer1,
+.footer2,
+.footer3{
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.footer1 h4,
+.footer2 h4,
+.footer3 h4{
+    font-weight: 400;
+    padding: 10px 0;
+    color: hsl(201, 11%, 66%);
+    font-size: 15px;
+}
+
+.footer1 h4:hover{
+    color: hsl(171, 66%, 44%);
+}
+.footer2 h4:hover{
+    color: hsl(171, 66%, 44%);
+}
+.footer3 h4:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+.facebook,
+.twitter,
+.instagram{
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.logo-footer img{
+    width: 50px;
+    height: 50px;
+}
