@@ -346,4 +346,10 @@ footer{
         flex-direction: column;
     }
 
+    .footer1 h4,
+    .footer2 h4,
+    .footer3 h4{
+        text-align: center;
+    }
+
 }
