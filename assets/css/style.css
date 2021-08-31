@@ -245,10 +245,11 @@ footer{
 
 /* responsividade */
 
-@media (max-width: 600px){
+@media (max-width: 450px){
     
     .logo-desc--text{
-        max-width: 500px;
+        max-width: 400px;
+        margin: 0 50px;
     }
     .logo-desc--text h1{
         font-size: 18px;
@@ -266,7 +267,8 @@ footer{
     }
     
     .desc-before--mac{
-        max-width: 500px;
+        max-width: 400px;
+        margin: 0 50px;
     }
     .desc-before--mac h1{
         font-size: 18px;
@@ -279,15 +281,15 @@ footer{
         flex-direction: column;
     }
     .mac-img img{
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
     }
     .mac-img{
-        margin-left: 0;
+        margin: 0;
     }
     
     .mac-text{
-        margin: 0;
+        margin: 0 50px;
     }
     
     .mac-text--1 h1,
@@ -300,4 +302,48 @@ footer{
     .mac-text--3 h4{
         font-size: 12px;
     }
+
+    .mobile-before,
+    .mobile-after{
+        margin: 30px 50px;
+        max-width: 400px;
+    }
+
+    .mobile-before h1,
+    .mobile-after h1{
+        font-size: 18px;
+    }
+
+    .mobile-before h4,
+    .mobile-after h4{
+        font-size: 12px;
+    }    
+
+    .mobile-img img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .before-companys--desc{
+        flex-direction: column;
+        margin: 0 50px;
+    }
+    .blacklist,
+    .text-snippets,
+    .sneak-preview{
+        margin: 10px 50px;
+    }
+
+    .companys--img{
+        flex-direction: column;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    .footer-desc{
+        flex-direction: column;
+    }
+
 }
